@@ -5,12 +5,12 @@
 set -e
 
 # config
-APACHE_VERSION="2.4.9"
+APACHE_VERSION="2.4.10"
 APACHE_PATH="apache"
 PHP_VERSION="5.5.11"
 PHP_PATH="php"
-BUILDPACK_VERSION="2.0-rc2"
-OPT_BUILDPACK_URL="http://vulcan-wlian.herokuapp.com/output/95ee1f8b-46fa-4ef7-a99f-92d6e03ed8d2"
+BUILDPACK_VERSION="2.0-rc3"
+OPT_BUILDPACK_URL="https://github.com/valeronm/heroku-buildpack-php/blob/mpm-event-php55-fpm/builded.tar.gz?raw=true"
 
 BIN_DIR=$(dirname $0)
 BUILD_DIR=$1
